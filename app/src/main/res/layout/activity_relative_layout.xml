@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RelativeLayoutActivity"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="267dp"
+        android:layout_height="131dp"
+        android:src="@drawable/logo_merak"
+        android:layout_alignParentTop = "true"
+        android:layout_centerHorizontal = "true" />
+    />
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Jenis Pembayaran"
+        android:layout_below="@+id/imageView"
+        android:id="@+id/relative_jenis_pengajuan"
+        />
+
+    <EditText
+        android:id="@+id/relative_jenis_pengajuan_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/relative_jenis_pengajuan"
+        android:layout_below="@+id/imageView"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="simpan"
+        android:id="@+id/relative_button"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/relative_jenis_pengajuan"
+        />
+    <!--    <View-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_alignParentRight="true"-->
+<!--        android:background="@color/white"-->
+<!--        >-->
+<!--       -->
+<!--        -->
+<!--    </View>-->
+
+
+<!--    <View-->
+<!--        android:layout_width="90dp"-->
+<!--        android:layout_height="90dp"-->
+<!--        android:layout_alignParentLeft="true"-->
+<!--        android:background="@color/teal_200"-->
+<!--        ></View>-->
+
+<!--      <View-->
+<!--          android:layout_width="90dp"-->
+<!--          android:layout_height="90dp"-->
+<!--          android:layout_alignParentBottom="true"-->
+<!--          android:background="@color/teal_200"-->
+<!--          > </View>-->
+<!--    <View-->
+<!--        android:layout_width="90dp"-->
+<!--        android:layout_height="90dp"-->
+<!--        android:layout_alignParentRight="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:background="@color/teal_200"-->
+<!--        > </View>-->
+
+</RelativeLayout>
